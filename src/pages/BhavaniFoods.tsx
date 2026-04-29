@@ -149,7 +149,7 @@ const BhavaniFoods = () => {
           >
             <div className="flex items-center gap-2">
               <img
-                src="src/assets/logo.png"
+                src="../src/assets/logo.png"
                 alt="Logo"
                 className="h-12 md:h-10 w-auto"
               />
