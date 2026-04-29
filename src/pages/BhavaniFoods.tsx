@@ -11,6 +11,9 @@ import {
   FaRegCalendarCheck,
 } from "react-icons/fa";
 
+// 1. IMPORT THE LOGO HERE (Adjust the path if your component is in a different folder)
+import logoImg from "../assets/logo.png";
+
 // --- 3-COLOR PALETTE ---
 const colors = {
   white: "#FFFFFF",
@@ -149,7 +152,7 @@ const BhavaniFoods = () => {
           >
             <div className="flex items-center gap-2">
               <img
-                src="../src/assets/logo.png"
+                src={logoImg} // 2. USE THE IMPORTED VARIABLE HERE
                 alt="Logo"
                 className="h-12 md:h-10 w-auto"
               />
@@ -272,7 +275,7 @@ const BhavaniFoods = () => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-            {/* About Text Content (Sticky Class Removed) */}
+            {/* About Text Content */}
             <div className="lg:col-span-5">
               <span
                 className="text-sm font-black tracking-[0.3em] uppercase mb-4 block"
