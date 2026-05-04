@@ -705,7 +705,7 @@ const BhavaniFoods = () => {
 
       {/* 3D Block Footnote (Red Version) */}
       <div className="py-8 md:py-12 text-center bg-black text-[#FF0000] text-[16px] sm:text-[20px] font-black tracking-[0.3em] sm:tracking-[0.5em] uppercase px-4">
-        © {new Date().getFullYear()} Bhavani Services • Tradition of Trust
+        © {new Date().getFullYear()} Bhavani Services • All rights reserved
       </div>
     </div>
   );
